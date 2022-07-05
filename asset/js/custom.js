@@ -17,6 +17,7 @@ $(function(){
 
   $('.sc-visual .title').click(function (e) {
     e.preventDefault();
+    /* $(this).toggleClass('on') */
     $(this).parent().addClass('active').siblings('.slide').removeClass('active');
   })
 

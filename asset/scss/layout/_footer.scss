@@ -49,68 +49,56 @@ footer{
   
       .sns-list{
         display: flex;
-  
-        .sns-facebook{
+
+        .sns{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
-          background-position: -25px 0;
           display: inline-block;
           width: 24px;
           height: 24px;
+        }
+  
+        .sns-facebook{
+          background-position: -25px 0;
 
           &:hover{
             background-position: -25px -25px;
           }
         }
+        
         .sns-twitter{
-          background: url(../images/icon/icon_sns_set.png) no-repeat;
           background-position: -50px 0;
-          display: inline-block;
-          width: 24px;
-          height: 24px;
 
           &:hover{
             background-position: -50px -25px;
           }
         }
+
         .sns-instagram{
-          background: url(../images/icon/icon_sns_set.png) no-repeat;
           background-position: -75px 0;
-          display: inline-block;
-          width: 24px;
-          height: 24px;
 
           &:hover{
             background-position: -75px -25px;
           }
         }
+
         .sns-kakao{
-          background: url(../images/icon/icon_sns_set.png) no-repeat;
           background-position: -100px 0;
-          display: inline-block;
-          width: 24px;
-          height: 24px;
 
           &:hover{
             background-position: -100px -25px;
           }
         }
+
         .sns-youtube{
-          background: url(../images/icon/icon_sns_set.png) no-repeat;
           background-position: -125px 0;
-          display: inline-block;
-          width: 24px;
-          height: 24px;
 
           &:hover{
             background-position: -125px -25px;
           }
         }
+
         .sns-blog{
-          background: url(../images/icon/icon_sns_set.png) no-repeat;
           background-position: -150px 0;
-          display: inline-block;
-          width: 24px;
-          height: 24px;
 
           &:hover{
             background-position: -150px -25px;
