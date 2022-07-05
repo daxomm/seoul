@@ -230,7 +230,7 @@ footer .bottom-area .mark-area .mark { margin-left: 10px; }
 
 .sc-visual .slide .link-title { background-color: #d2e1e9; padding-top: 50px; color: #333; text-align: center; font-weight: 700; display: block; height: 100%; }
 
-.sc-visual .slide .link-title::before { content: ''; background: url(../images/icon/icon_small.png) no-repeat; display: block; width: 50px; height: 50px; margin: 0 auto 5px; background-color: #fff; border-radius: 50%; }
+.sc-visual .slide .link-title::before { content: ''; background: url(../images/icon/icon_small.png) no-repeat; display: block; width: 50px; height: 50px; margin: 0 auto 10px; background-color: #fff; border-radius: 50%; }
 
 .sc-visual .slide .link-swiper { position: relative; display: block; }
 
