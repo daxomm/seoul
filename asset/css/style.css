@@ -224,11 +224,13 @@ footer .bottom-area .mark-area .mark { margin-left: 10px; }
 
 .sc-visual .slide.active { z-index: 10; }
 
-.sc-visual .slide.active .title { background-color: #0158a8; color: #fff; }
+.sc-visual .slide.active .link-title { background-color: #0158a8; color: #fff; }
 
-.sc-visual .slide .title { width: 80px; height: 50%; position: absolute; top: 0; left: -80px; background-color: #d2e1e9; padding-top: 50px; color: #333; text-align: center; font-weight: 700; display: block; }
+.sc-visual .slide .title { position: absolute; top: 0; left: -80px; width: 80px; height: 50%; }
 
-.sc-visual .slide .title::before { content: ''; background: url(../images/icon/icon_small.png) no-repeat; display: inline-block; width: 50px; height: 50px; margin: 0 auto 5px; background-color: #fff; border-radius: 50%; }
+.sc-visual .slide .link-title { background-color: #d2e1e9; padding-top: 50px; color: #333; text-align: center; font-weight: 700; display: block; height: 100%; }
+
+.sc-visual .slide .link-title::before { content: ''; background: url(../images/icon/icon_small.png) no-repeat; display: block; width: 50px; height: 50px; margin: 0 auto 5px; background-color: #fff; border-radius: 50%; }
 
 .sc-visual .slide .link-swiper { position: relative; display: block; }
 
@@ -236,7 +238,7 @@ footer .bottom-area .mark-area .mark { margin-left: 10px; }
 
 .sc-visual .slide.slide02 .title { top: 50%; }
 
-.sc-visual .slide.slide02 .title::before { background-position: -50px 0px; }
+.sc-visual .slide.slide02 .link-title::before { background-position: -50px 0px; }
 
 .sc-visual .slide .control-box { display: -webkit-box; display: -ms-flexbox; display: flex; position: absolute; top: 320px; right: 0; z-index: 10; color: #fff; font-size: 13px; margin-top: 2px; }
 
