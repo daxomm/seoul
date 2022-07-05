@@ -4,9 +4,9 @@ footer{
   .top-area{
     display: flex;
     justify-content: space-between;
-    padding: 15px 0;
+    align-items: center;
+
     .foot-util{
-  
       .util-list{
         display: flex;
         .util-item{
@@ -25,13 +25,18 @@ footer{
   
           +.util-item::before{
             position: absolute;
-            top: 3px;
+            top: 17px;
             left: -10px;
             content: '';
             display: inline-block;
             width: 1px;
             height: 14px;
             background: #dcdcdc;
+          }
+
+          .link-util{
+            display: block;
+            height: 100%;
           }
         }
       }
@@ -51,6 +56,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -25px -25px;
+          }
         }
         .sns-twitter{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
@@ -58,6 +67,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -50px -25px;
+          }
         }
         .sns-instagram{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
@@ -65,6 +78,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -75px -25px;
+          }
         }
         .sns-kakao{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
@@ -72,6 +89,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -100px -25px;
+          }
         }
         .sns-youtube{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
@@ -79,6 +100,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -125px -25px;
+          }
         }
         .sns-blog{
           background: url(../images/icon/icon_sns_set.png) no-repeat;
@@ -86,6 +111,10 @@ footer{
           display: inline-block;
           width: 24px;
           height: 24px;
+
+          &:hover{
+            background-position: -150px -25px;
+          }
         }
       }
     }
