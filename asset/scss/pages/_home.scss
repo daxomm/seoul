@@ -762,19 +762,19 @@
       z-index: 1;
       padding-right: 44px;
       font-size: 22px;
-    }
 
-    .sc-title::after{
-      background: url(../images/icon/icon_sns.png) no-repeat -247px 0;;
-      content: '';
-      position: absolute;
-      top: -2px;
-      right: 0;
-      display: inline-block;
-      width: 34px;
-      height: 24px;
-      border-left: 1px solid #878787;
-      padding-right: 6px;
+      &::after{
+        background: url(../images/icon/icon_sns.png) no-repeat -247px 0;;
+        content: '';
+        position: absolute;
+        top: -2px;
+        right: 0;
+        display: inline-block;
+        width: 34px;
+        height: 24px;
+        border-left: 1px solid #878787;
+        padding-right: 6px;
+      }
     }
 
     .sns-list{
