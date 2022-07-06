@@ -4,4 +4,30 @@
   font-weight: 700;
   color:#222;
 
+  .sc-service &{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+    line-height: 1.35em;
+  }
+
+  .sc-often &{
+    border: none;
+  }
+
+  .sc-theme &{
+    padding: 0 0 20px 0;
+  }
+
+  .sc-news &{
+    padding: 0 0 20px 0;
+  }
+
+  .sc-video &{
+    padding-bottom: 20px;
+  }
+
+  .sc-seoul-news &{
+    padding-bottom: 20px;
+  }
 }
