@@ -152,7 +152,7 @@ $(function(){
     e.preventDefault();
     
     if($(this).siblings('.site-sub').css('display') == 'block'){
-      $('.site-sub').stop().slideUp()
+      $('.site-sub').stop().slideUp();
       $('.btn-site').removeClass('on');
     }else{
       $('.site-sub').stop().slideUp()
