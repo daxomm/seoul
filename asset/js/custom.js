@@ -155,8 +155,8 @@ $(function(){
       $('.site-sub').stop().slideUp();
       $('.btn-site').removeClass('on');
     }else{
-      $('.site-sub').stop().slideUp()
-      $(this).siblings('.site-sub').stop().slideDown()
+      $('.site-sub').stop().slideUp();
+      $(this).siblings('.site-sub').stop().slideDown();
       $('.btn-site').removeClass('on');
       $(this).addClass('on');
     }
